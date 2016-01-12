@@ -2,10 +2,10 @@
   "manifest_version": 2,
   "name": "Random Words",
   "version": "1.1",
-  "background": {
-    "scripts": ["background.js"]
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
   },
-  "browser_action": {
-    "default_icon": "icon.png"
-  }
+  "permissions": ["notifications"]
 }
