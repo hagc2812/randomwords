@@ -7,5 +7,5 @@
       "scripts": ["main.js"]
     }
   },
-  "permissions": ["notifications"]
+  "permissions": ["notifications", "alarms"]
 }
