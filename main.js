@@ -12,7 +12,8 @@ chrome.app.runtime.onLaunched.addListener(function() {
           iconUrl: "icon.png",
           imageUrl: "image.png"
         };
-        chrome.notifications.create("id", options);
+        chrome.notifications.create("id" + Date.now(), options);
+	console.log("Notification " + Date.now());
     });
     chrome.alarms.create("alarm1", alarminfo);
 
