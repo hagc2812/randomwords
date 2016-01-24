@@ -7,5 +7,10 @@
       "scripts": ["main.js"]
     }
   },
-  "permissions": ["notifications", "alarms"]
+  "permissions": [
+    "notifications",
+    "alarms",
+    "http://*/",
+    "https://*/"
+  ]
 }
